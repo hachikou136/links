@@ -12,6 +12,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+    
+    <script src="https://unpkg.com/favloader@0.x.x"></script>
+    <script src="https://unpkg.com/favloader@0.x.x/parseGIF.js"></script>
 
 </head>
 <body>
@@ -123,6 +126,12 @@
 
     <p class="text greeting">Icons from <a href="https://icons8.com/">icons8</a>. Have a nice day! 🌈</p>
     -->
+    
+    <script>
+        favloader.init({
+            gif: 'loader.gif'
+        });
+    </script>
 
 </body>
 </html>
