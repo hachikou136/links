@@ -1,7 +1,17 @@
 :root {
-    --primary: rgb(186, 102, 0);
-    --secondary: rgb(255, 235, 211);
-    --background: rgb(255, 251, 241);
+    --primary: white;
+    --secondary: #4d2a00;
+    --background: #2d2000;
+    /*
+    --darkreader-bg--primary: #955200;
+    --darkreader-text--primary: #ffad4a;
+    --darkreader-border--primary: #c76d00;
+    --darkreader-bg--secondary: #4d2a00;
+    --darkreader-text--secondary: #ffdaad;
+    --darkreader-border--secondary: #733f00;
+    --darkreader-bg--background: #2d2000;
+    --darkreader-text--background: #ffeec2;
+    */
 
     --font: "Poppins";
 
